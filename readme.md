@@ -20,6 +20,14 @@ Authenticate  | `/auth/$license_key`| Authenticates by comparing the domain name
 
 ## Deployment
 
+### Prerequisites
+
+Make sure that you have the following programs installed on the hosting machine
+- Maven
+- Docker
+- Make
+- Java
+  
 ### 1) Create a docker container for the DBMS
 
 If you did deploy a container before, make sure to execute this command to delete the existing container.
