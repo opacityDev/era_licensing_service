@@ -1,4 +1,4 @@
-name: build-deploy-licensing-service
+name: build-test-deploy-licensing-service
 run-name: "licensing service test, build and deployment"
 on: 
  push:
