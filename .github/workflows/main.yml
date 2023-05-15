@@ -2,7 +2,6 @@ name: build-deploy-licensing-service
 run-name: "licensing service test, build and deployment"
 on: 
  push:
-  branches: [ main ]
 jobs:
  build-and-test:
   runs-on: ubuntu-latest
