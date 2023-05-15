@@ -21,7 +21,7 @@ Authenticate  | `/auth/$license_key`| Authenticates by comparing the domain name
 
 ## Deployment
 
-### TODO
+### -- TODO
 
 ### Prerequisites
 
