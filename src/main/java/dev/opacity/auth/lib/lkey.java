@@ -93,6 +93,7 @@ public class lkey {
                 ", owner_id='" + owner + '\'' +
                 ", content='" + content + '\'' +
                 ", product_id='" + product + '\'' +
+                ", domain_name='" + domainName + '\'' +
                 '}';
     }
     
