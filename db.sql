@@ -9,5 +9,6 @@ CREATE TABLE lkey (
     content varchar(255) NOT NULL,
     domain_name varchar(255),
     owner int,
+    product int,
     PRIMARY KEY (ID)
 );

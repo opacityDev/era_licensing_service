@@ -31,3 +31,6 @@ create_database:
 
 sh_databse:
 	docker exec -it $(MYSQL_CONTAINER) sh
+
+mysql_container_ip_address:
+	docker container inspect -f '{{ .NetworkSettings.IPAddress }}' $(MYSQL_CONTAINER)

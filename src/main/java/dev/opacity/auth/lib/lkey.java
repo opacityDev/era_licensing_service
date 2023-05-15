@@ -24,14 +24,17 @@ public class lkey {
     private String content;
     
     @Column
+    private int product;
+
+    @Column
     private String domainName;
 
     public lkey() {  }
 
-    public lkey(int owner,String domainName) {
+    public lkey(int owner,int product) {
         this.setOwner(owner);
         this.setContent(generateLicenseKey());
-        this.setDomainName(domainName);
+        this.setProduct(product);
     }
 
     public static String generateLicenseKey() {
@@ -55,12 +58,20 @@ public class lkey {
         return owner;
     }
 
+    public int getProduct() {
+        return product;
+    }
+
     public String getDomainName() {
         return domainName;
     }
 
     public void setOwner(int owner) {
         this.owner = owner;
+    }
+
+    public void setProduct(int product) {
+        this.product = product;
     }
 
     public void setDomainName(String domainName) {
@@ -79,8 +90,9 @@ public class lkey {
     public String toString() {
         return "Key{" +
                 "id=" + id +
-                ", owner='" + owner + '\'' +
+                ", owner_id='" + owner + '\'' +
                 ", content='" + content + '\'' +
+                ", product_id='" + product + '\'' +
                 '}';
     }
     
