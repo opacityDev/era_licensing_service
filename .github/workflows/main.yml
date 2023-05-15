@@ -1,0 +1,17 @@
+name: build-deploy-licensing-service
+run-name: "licensing service test, build and deployment"
+on: 
+ push:
+  branches: [ main ]
+jobs:
+ build-and-test:
+  runs-on: ubuntu-latest
+  steps:
+  - name: Setup Java JDK
+    uses: actions/setup-java@v1.4.4
+    with:
+     java-version: 11
+  - name: checkout repo
+    uses: actions/checkout@v3
+  - name: build application
+    run : make
