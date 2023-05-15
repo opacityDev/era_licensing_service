@@ -7,7 +7,7 @@ FLUSH PRIVILEGES;
 CREATE TABLE lkey (
     id int NOT NULL,
     content varchar(255) NOT NULL,
-    domainName varchar(255),
+    domain_name varchar(255),
     owner int,
     PRIMARY KEY (ID)
 );

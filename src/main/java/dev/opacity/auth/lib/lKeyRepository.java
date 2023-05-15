@@ -1,4 +1,4 @@
-package dev.opacity.auth.dev.lib;
+package dev.opacity.auth.lib;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
