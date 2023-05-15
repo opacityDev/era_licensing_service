@@ -21,6 +21,8 @@ Authenticate  | `/auth/$license_key`| Authenticates by comparing the domain name
 
 ## Deployment
 
+### TODO
+
 ### Prerequisites
 
 Make sure that you have the following programs installed on the hosting machine
