@@ -11,4 +11,4 @@ CREATE TABLE lkey (
     owner int,
     product int,
     PRIMARY KEY (ID)
-);
+);     
