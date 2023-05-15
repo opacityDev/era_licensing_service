@@ -6,7 +6,7 @@ all: start_server
 .PHONY: start_server deploy_mysql_server build
 
 build: src pom.xml
-	mvn clean package
+	mvn -e clean package
 
 start_server: build ./target/dev-0.0.1-SNAPSHOT.jar 
 	java -jar ./target/dev-0.0.1-SNAPSHOT.jar
