@@ -15,7 +15,7 @@ Bind          | `/notify/bind/$license_key/$domain_name`| Binds **license_key** 
 Authenticate  | `/auth/$license_key`| Authenticates by comparing the domain name in the request header and the one associated with the given **license_key**
 
 
-- `notify` can only be accessed by the machine hosting the wordpress website
+- `notify` can only be accessed by the machine hosting the wordpress website.
 
 - `auth` s' access is not restricted.
 
