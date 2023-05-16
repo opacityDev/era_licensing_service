@@ -12,12 +12,12 @@ Action        | Mapping                              | Description
 ------------- |-------------                         | -------------
 Generate      | `/notify/gen/$user_id/$product_id` |Generates a new license key  
 Bind          | `/notify/bind/$license_key/$domain_name`| Binds **license_key** to the given **domain_name** 
-Authenticate  | `/auth/$license_key`| Authenticates by comparing the domain name in the request header and the one associated with the given **license_key**
+Authenticate  | `/$license_key`| Authenticates by comparing the domain name in the request header and the one associated with the given **license_key**
 
 
 - `notify` can only be accessed by the machine hosting the wordpress website.
 
-- `auth` s' access is not restricted.
+- `authentication` s' access is not restricted.
 
 ## Deployment
 
