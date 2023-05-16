@@ -12,3 +12,4 @@ CREATE TABLE lkey (
     product int,
     PRIMARY KEY (ID)
 );
+     
